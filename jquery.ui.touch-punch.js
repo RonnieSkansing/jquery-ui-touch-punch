@@ -4,7 +4,7 @@
  * Dual licensed under the MIT or GPL Version 2 licenses.
  */
 (function ($) {
-
+  // https://patrickhlauke.github.io/touch/touchscreen-detection/
   function detectTouchscreen() {
     var result = false;
     if (window.PointerEvent && ('maxTouchPoints' in navigator)) {
