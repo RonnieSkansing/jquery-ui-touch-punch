@@ -1,0 +1,26 @@
+{
+  "name": "jquery-ui-touch-punch",
+  "version": "0.3.0",
+  "description": "> **jQuery UI Touch Punch is a small hack that enables the use of touch events on sites using the jQuery UI user interface library.**",
+  "main": "jquery.ui.touch-punch.js",
+  "bin": {
+    "gulp": "./bin/gulp.js"
+  },
+  "scripts": {
+    "minify": "gulp minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RonnieSkansing/jquery-ui-touch-punch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RonnieSkansing/jquery-ui-touch-punch/issues"
+  },
+  "homepage": "https://github.com/RonnieSkansing/jquery-ui-touch-punch#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-minify": "^3.1.0"
+  }
+}
